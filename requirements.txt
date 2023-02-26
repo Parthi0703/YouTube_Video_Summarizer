@@ -1,0 +1,7 @@
+youtube-transcript-api==0.5.0
+tkinter
+nltk==3.7
+sklearn
+numpy==1.21.5
+genism
+streamlit==1.15.2

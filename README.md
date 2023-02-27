@@ -5,14 +5,14 @@ YouTube being one of the major source of knowledge and information, spending tim
 Advanced Natural Language Processing techinques are used in this project to generate the summary using Streamlit webapp and Tkinter GUI. The methods used are Tf-Idf and Genism. Tf-Idf method involves ranking the scentences based on the the words frequency based vectorization. Genism method involves ranking the scentences based on the embeddings based vectorization of words. After ranking the scentences, based on the fraction input, the top scentences are selected to form the summary of the YouTube video long transcripts.
 
 ## Model Evaluation
-The above extractive text summarization methods are evaluated based on the ROUGE score. ROUGE score was exclusively developed to become the standard evaluation measure for summarization tasks.The methods are tested on the long document summarization dataset "govreport-summarization" from Hugging Face. It works based on the precision, recall and F1-score of overlapping words between the generated summary and refernce summary.
+The above extractive text summarization methods are evaluated based on the ROUGE score. ROUGE score was exclusively developed to become the standard evaluation measure for summarization tasks.The methods are tested on the long document summarization dataset "govreport-summarization" from Hugging Face. It works based on the precision, recall and F1-score of overlapping words between the generated summary and refernce summary. ROUGE score ranges between 0 to 1.
 Below are the results.
 
 ### ROUGE Score
 |Method|ROUGE-1_F-Score|
 |-|-|
 |Tf-Idf|0.3613|
-|Genism|0.4064
+|Genism|0.4064|
 
 ## Working
 ### Tkinter GUI
